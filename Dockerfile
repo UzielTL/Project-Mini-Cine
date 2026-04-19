@@ -1,5 +1,5 @@
 # Etapa 1: build
-FROM node:18 AS builder
+FROM node:20 AS builder
 
 WORKDIR /app
 COPY package*.json ./
